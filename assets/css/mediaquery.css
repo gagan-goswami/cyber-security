@@ -1,0 +1,163 @@
+@media (max-width:991px) {
+  .banner-section .banner-image {
+    display: none;
+  }
+
+  .about-section .about-item {
+    margin-bottom: 90px;
+  }
+
+  .info-section .info-item {
+    margin-bottom: 70px;
+  }
+
+  .what-we-do-section .what-we-do-item {
+    margin-bottom: 70px;
+  }
+
+  .get-in-touch .get-in-touch-item {
+    margin-bottom: 70px;
+  }
+
+  .header .nav-link:before {
+    background-color: #ecc3224d;
+    width: 100%;
+  }
+
+  .header .nav-item {
+    margin: 0px 0px;
+  }
+
+  .header .contact-btn {
+    margin: 10px 0px;
+  }
+}
+
+
+@media (max-width:991px) {
+  .sponsor-section .sponsor-item .sponsor-logos {
+    flex-wrap: wrap;
+
+  }
+
+  .sponsor-section .sponsor-item .sponsor-logos li {
+    margin: 0px 20px 25px 0px;
+  }
+
+
+  figure.snip1390 {
+    max-width: 100%;
+
+  }
+}
+
+@media (max-width:400px) {
+
+  .pricing-plan-section .special-plans-item {
+    padding: 50px 10px;
+    margin: 0px 10px 25px 10px;
+  }
+
+  .info-section .info-item .info-count-main {
+    flex-direction: column;
+    align-items: start;
+  }
+
+
+  .what-we-do-section .what-we-do-item:hover .what-we-do-image::after {
+    width: 300px;
+  }
+
+}
+
+@media (max-width:575px) {
+  figure.snip1390 {
+    margin: 0 0 25px 0;
+  }
+}
+
+@media (max-width:475px) {
+  .banner-section .banner-content h1 {
+    font-size: 40px;
+  }
+
+  .what-we-do-section .what-we-do-item .what-we-do-image::before,
+  .what-we-do-section .what-we-do-item .what-we-do-image::after,
+  .info-section .info-item .info-image::before,
+  .info-section .info-item .info-image::after,
+  .get-in-touch .get-in-touch-item .get-in-touch-image::before,
+  .get-in-touch .get-in-touch-item .get-in-touch-image::after {
+    width: 300px;
+    height: 300px;
+  }
+
+  .info-section .info-item img,
+  .what-we-do-section .what-we-do-item .img-number,
+  .get-in-touch .get-in-touch-item img {
+    height: 300px;
+  }
+
+  .info-section .info-item:hover .info-image::after,
+  .what-we-do-section .what-we-do-item:hover .what-we-do-image::after,
+  .get-in-touch .get-in-touch-item:hover .get-in-touch-image::after {
+    width: 300px;
+    transition: 1s;
+  }
+
+  .what-we-do-section .what-we-do-item .what-we-do-main {
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 0px;
+  }
+
+  .what-we-do-section .what-we-do-item .category {
+    margin-bottom: 10px;
+  }
+
+}
+
+@media (max-width:375px) {
+
+  .banner-section .btn-2,
+  .banner-section .btn-3,
+  .about-section .about-item .about-content .about-btn,
+  .info-section .info-item .info-btn,
+  .pricing-plan-section .special-plans-item .plans-content .pricing-btn,
+  .get-in-touch .get-in-touch-item button,
+  .header .contact-btn {
+    padding: 5px 20px;
+  }
+
+  .sponsor-section .heading h2,
+  .about-section .about-item .about-content h2,
+  .service-section .service-heading h2,
+  .info-section .info-item h2,
+  .what-we-do-section .what-we-do-item h2,
+  .pricing-section .heading h2,
+  .pricing-plan-section .heading h2,
+  .testimonials-section .heading h2,
+  .blog-section .heading h2,
+  .get-in-touch .get-in-touch-item h2 {
+    font-size: 25px;
+  }
+
+  .info-section .info-item .info-count-main .counter h2,
+  .info-section .info-item .info-count-main .counter span {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .what-we-do-section .what-we-do-item .what-we-do-main h2 {
+    font-size: 16px;
+  }
+
+  .about-section .about-item .about-img-2 {
+    width: 200px;
+  }
+
+  .info-section .info-item img,
+  .what-we-do-section .what-we-do-item .img-number,
+  .get-in-touch .get-in-touch-item img {
+    height: 240px;
+  }
+}
