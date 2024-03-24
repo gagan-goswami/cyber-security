@@ -19,14 +19,13 @@ a {
   padding: 5px 0px;
 }
 
-.header .nav-link.active {
+.header .navbar-nav .nav-link.active {
   color: #ecc422;
 }
 
 .header .nav-item {
   margin: 0px 15px;
 }
-
 
 .header .is-sticky-menu {
   position: fixed;
@@ -39,8 +38,6 @@ a {
   animation-duration: 0.5s;
   padding: 10px 0px;
 }
-
-
 
 .header .menu-bar .nav-link {
   font-size: 16px;
@@ -72,7 +69,6 @@ a {
   transition: 1s;
 }
 
-
 .header .dropdown-menu {
   background-color: var(--white);
   color: var(--white);
@@ -102,10 +98,9 @@ a {
   color: black;
 }
 
-
 .header .contact-btn {
   display: inline-block;
-  padding: 5Px 40px;
+  padding: 5px 40px;
   line-height: 2.5em;
   overflow: hidden;
   cursor: pointer;
@@ -128,6 +123,24 @@ a {
   border-radius: 50%;
 }
 
+.header .navbar-toggler {
+  background-color: #3c59d5;
+  padding: 5px 10px;
+  margin: 0px 10px;
+  color: white;
+  line-height: 27px;
+  text-align: center;
+  border: 2px solid white;
+}
+
+.header .navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.header .navbar-toggler-icon {
+  color: var(--white);
+}
+
 .header .contact-btn:hover {
   color: white;
 }
@@ -143,15 +156,18 @@ a {
   left: -30px;
 }
 
-.header .navbar-toggler {
-  background-color: #ecc422;
-  padding: 5px;
-  line-height: 28px;
-  color: white;
+.header .btn-close {
+  background-color: #3c59d5;
+  opacity: 1;
 }
 
-.header .navbar-toggler:focus {
+.header .btn-close:focus {
   box-shadow: none;
+  opacity: 2;
+}
+
+.header .offcanvas-header {
+  background-color: var(--dark);
 }
 
 /* ======================== */
@@ -182,7 +198,7 @@ a {
 
 .banner-section .btn-2 {
   display: inline-block;
-  padding: 5Px 40px;
+  padding: 5px 40px;
   line-height: 2.5em;
   overflow: hidden;
   cursor: pointer;
@@ -221,10 +237,9 @@ a {
   left: -30px;
 }
 
-
 .banner-section .btn-3 {
   display: inline-block;
-  padding: 5Px 40px;
+  padding: 5px 40px;
   line-height: 2.5em;
   overflow: hidden;
   cursor: pointer;
@@ -246,7 +261,6 @@ a {
   height: 200px;
   z-index: -1;
   border-radius: 50%;
-
 }
 
 .banner-section .btn-3:hover {
@@ -269,11 +283,10 @@ a {
   z-index: 1;
   display: flex;
   justify-content: center;
-
 }
 
 .banner-section .banner-image::before {
-  content: '';
+  content: "";
   position: absolute;
   height: 400px;
   width: 400px;
@@ -286,9 +299,8 @@ a {
   overflow: hidden;
 }
 
-
 .banner-section .banner-image::after {
-  content: '';
+  content: "";
   position: absolute;
   height: 400px;
   width: 0;
@@ -306,13 +318,11 @@ a {
   transition: 1s;
 }
 
-
 .banner-section .banner-image img {
   height: 350px;
   width: auto;
   animation: pulse infinite;
   animation-duration: 6s;
-
 }
 
 /* ========================== */
@@ -357,7 +367,6 @@ a {
 .about-section .about-item .about-img-1 {
   height: 500px;
   object-fit: cover;
-  width: 100%;
 }
 
 .about-section .about-item .about-img-2 {
@@ -415,7 +424,7 @@ a {
 
 .about-section .about-item .about-content .about-btn {
   display: inline-block;
-  padding: 5Px 40px;
+  padding: 5px 40px;
   line-height: 2.5em;
   overflow: hidden;
   cursor: pointer;
@@ -487,68 +496,23 @@ a {
   padding: 30px 10px;
   color: #fff;
   border-radius: 40px;
-  overflow: hidden;
-  position: relative;
-  z-index: 1;
-}
-
-
-.service-section .service-item::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background-color: #2a49d7;
-  color: #fff;
-  border-radius: 40px;
-  z-index: -1;
-  transform: translateY(-400px);
-}
-
-.service-section .service-item:hover:before {
-  transition: 0.8s;
-  transform: translateY(0);
 }
 
 .service-section .service-item .service-icon {
   padding: 20px;
   height: 100px;
   width: 100px;
-  background-color: #3c59d5;
+  background-color: #2a49d7;
   border-radius: 50%;
   margin: auto;
   text-align: center;
   transition: 1s;
-  position: relative;
-  z-index: 1;
-  overflow: hidden;
-}
-
-.service-section .service-item .service-icon::before {
-  content: '';
-  position: absolute;
-  padding: 20px;
-  height: 100px;
-  width: 100px;
-  inset: 0;
-  background-color: #2a49d7;
-  border-radius: 50%;
-  transition: 1s;
-  transform: translateY(-200px);
-  z-index: -1;
-  border: 1px solid white;
-}
-
-.service-section .service-item:hover .service-icon::before {
-  transition: 1s;
-  transform: translateY(0px);
-  z-index: -1;
 }
 
 .service-section .service-item:hover .service-icon {
   animation: pulse;
   animation-duration: 2s;
 }
-
 
 .service-section .service-item .service-content h2 {
   margin: 0;
@@ -584,8 +548,6 @@ a {
   transition: 1s;
 }
 
-
-
 /* ============================= */
 /*========= info-section ========*/
 /* ============================= */
@@ -607,11 +569,10 @@ a {
   z-index: 1;
   display: flex;
   justify-content: center;
-
 }
 
 .info-section .info-item .info-image::before {
-  content: '';
+  content: "";
   position: absolute;
   height: 400px;
   width: 400px;
@@ -623,9 +584,8 @@ a {
   transform: translate(-50%, -50%);
 }
 
-
 .info-section .info-item .info-image::after {
-  content: '';
+  content: "";
   position: absolute;
   height: 400px;
   width: 0;
@@ -641,9 +601,7 @@ a {
 .info-section .info-item:hover .info-image::after {
   width: 400px;
   transition: 1s;
-
 }
-
 
 .info-section .info-item span {
   font-size: 18px;
@@ -657,7 +615,6 @@ a {
   font-size: 40px;
   font-weight: 700;
 }
-
 
 .info-section .info-item .info-btn {
   display: inline-block;
@@ -700,7 +657,6 @@ a {
   left: -30px;
 }
 
-
 .info-section .info-item p {
   color: #fff;
   font-size: 16px;
@@ -717,7 +673,6 @@ a {
   margin-top: 15px;
   display: flex;
 }
-
 
 .info-section .info-item .info-count-main .counter h2 {
   color: #ecc422;
@@ -756,9 +711,8 @@ a {
   justify-content: center;
 }
 
-
 .what-we-do-section .what-we-do-item .what-we-do-image::before {
-  content: '';
+  content: "";
   position: absolute;
   height: 400px;
   width: 400px;
@@ -771,9 +725,8 @@ a {
   overflow: hidden;
 }
 
-
 .what-we-do-section .what-we-do-item .what-we-do-image::after {
-  content: '';
+  content: "";
   position: absolute;
   height: 400px;
   width: 0;
@@ -790,7 +743,6 @@ a {
   width: 400px;
   transition: 1s;
 }
-
 
 .what-we-do-section .what-we-do-item .img-number {
   height: 400px;
@@ -875,59 +827,16 @@ a {
   padding: 40px 20px;
   border-radius: 40px;
   margin-bottom: 25px;
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
-}
-
-.pricing-section .pricing-item::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background-color: #2a49d7;
-  color: #fff;
-  border-radius: 40px;
-  z-index: -1;
-  transform: translateY(-550px);
-}
-
-.pricing-section .pricing-item:hover:before {
-  transition: 0.8s;
-  transform: translateY(0);
 }
 
 .pricing-section .pricing-item .icon {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background-color: #3c59d5;
+  background-color: #2a49d7;
   margin: 10px auto;
   text-align: center;
   transition: 1s;
-  position: relative;
-  z-index: 1;
-  overflow: hidden;
-}
-
-.pricing-section .pricing-item .icon::before {
-  content: '';
-  position: absolute;
-  padding: 20px;
-  height: 100px;
-  width: 100px;
-  inset: 0;
-  background-color: #2a49d7;
-  border-radius: 50%;
-  transition: 1s;
-  transform: translateY(-200px);
-  z-index: -1;
-  border: 1px solid white;
-}
-
-.pricing-section .pricing-item:hover .icon::before {
-  transition: 1s;
-  transform: translateY(0px);
-  z-index: -1;
 }
 
 .pricing-section .pricing-item:hover .icon {
@@ -1044,7 +953,6 @@ a {
   padding-top: 10px;
 }
 
-
 .pricing-plan-section .special-plans-item .plans-content .pricing-btn {
   display: inline-block;
   padding: 5px 40px;
@@ -1081,7 +989,10 @@ a {
   transition: 0.3s all;
 }
 
-.pricing-plan-section .special-plans-item .plans-content .pricing-btn:hover::before {
+.pricing-plan-section
+  .special-plans-item
+  .plans-content
+  .pricing-btn:hover::before {
   top: -30px;
   left: -30px;
 }
@@ -1220,14 +1131,13 @@ figure.snip1390 .profile {
 
 .blog-section .blog-item img {
   height: 400px;
-  width: 100%;
 }
 
 .blog-section .blog-item {
   margin-bottom: 20px;
 }
 
-.blog-section .blog-item .card {
+.blog-section .blog-section .card {
   border: none;
 }
 
@@ -1252,21 +1162,6 @@ figure.snip1390 .profile {
 .blog-section .card-body a {
   text-decoration: none;
   color: #ecc422;
-  position: relative;
-}
-
-.blog-section .card-body a::before {
-  content: "";
-  position: absolute;
-  width: 0;
-  height: 1px;
-  background-color: #ecc422;
-  bottom: -5px;
-}
-
-.blog-section .card-body a:hover:before {
-  width: 100%;
-  transition: 1s;
 }
 
 /* ============================== */
@@ -1278,7 +1173,6 @@ figure.snip1390 .profile {
   padding: 90px 0px;
   overflow: hidden;
 }
-
 
 .get-in-touch .get-in-touch-item img {
   height: 350px;
@@ -1298,7 +1192,7 @@ figure.snip1390 .profile {
 }
 
 .get-in-touch .get-in-touch-item .get-in-touch-image::before {
-  content: '';
+  content: "";
   position: absolute;
   height: 400px;
   width: 400px;
@@ -1311,7 +1205,7 @@ figure.snip1390 .profile {
 }
 
 .get-in-touch .get-in-touch-item .get-in-touch-image::after {
-  content: '';
+  content: "";
   position: absolute;
   height: 400px;
   width: 0;
@@ -1322,7 +1216,6 @@ figure.snip1390 .profile {
   top: 50%;
   left: 50%;
   transition: 0.5s;
-
 }
 
 .get-in-touch .get-in-touch-item:hover .get-in-touch-image::after {
@@ -1343,9 +1236,6 @@ figure.snip1390 .profile {
   font-weight: 700;
   padding: 10px 0px;
 }
-
-
-
 
 .get-in-touch .get-in-touch-item button {
   display: inline-block;
@@ -1555,12 +1445,11 @@ figure.snip1390 .profile {
   bottom: 2em;
   position: fixed;
   font-size: 25px;
-  line-height: 45px;
+  line-height: 50px;
   text-align: center;
   z-index: 9999;
   margin-bottom: 10px;
 }
-
 
 .footer .top-button .top {
   animation: bounce-in 2s ease infinite;
@@ -1569,7 +1458,7 @@ figure.snip1390 .profile {
 @keyframes bounce-in {
   0% {
     opacity: 0;
-    transform: scale(.3);
+    transform: scale(0.3);
   }
 
   50% {
@@ -1578,7 +1467,7 @@ figure.snip1390 .profile {
   }
 
   70% {
-    transform: scale(.9);
+    transform: scale(0.9);
   }
 
   100% {
