@@ -5,12 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/font-awesome.css">
-    <link rel="stylesheet" href="assets/css/mediaquery.css">
-    <link href="https://fonts.googleapis.com/css2?family=Belanosima&family=Kanit&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="/assets/css/all.css">
+<link rel="stylesheet" href="assets/css/font-awesome.css">
+<link rel="stylesheet" href="assets/css/mediaquery.css">
+<link href="https://fonts.googleapis.com/css2?family=Belanosima&family=Kanit&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 
 
@@ -24,45 +26,49 @@
         <div class="menu-bar is-sticky-on">
             <div class="container">
                 <nav class="navbar navbar-expand-lg">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"> <i class="fa fa-bars" aria-hidden="true"></i></span>
+                    <a class="navbar-brand" href="#"><img class="logoimg" src="./assets/images/Header-logo.png"></a>
+                    <button class="navbar-toggler d-lg-none ms-auto" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
                     </button>
-                    <a class="navbar-brand" href="#"><img class="logoimg" src="./assets/images/Header-logo.png"
-                            alt=""></a>
-                    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                        <ul class="navbar-nav m-auto p-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#">Home </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Services</a>
-                            </li>
-
-                            <li class="nav-item dropdown">
-                                <a href="#" class="nav-link"> pages <i class="fa fa-angle-down"></i>
-                                </a>
-                                <div class="dropdown-menu">
-                                    <a href="#" class="dropdown-item"> Home</a>
-                                    <a href="#" class="dropdown-item"> About</a>
-                                    <a href="#" class="dropdown-item"> Services</a>
-                                    <a href="#" class="dropdown-item"> Pages</a>
-                                    <a href="#" class="dropdown-item"> Contact</a>
-                                </div>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Our Team</a>
-                            </li>
-                        </ul>
-                        <div class="d-flex">
-                            <button class="contact-btn">Contact Us</button>
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample">
+                        <div class="offcanvas-header">
+                            <button type="button" class="btn-close btn-danger" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
                         </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav m-auto p-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">Home </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">About</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Services</a>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a href="#" class="nav-link"> pages <i class="fa fa-angle-down"></i>
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <a href="#" class="dropdown-item"> Home</a>
+                                        <a href="#" class="dropdown-item"> About</a>
+                                        <a href="#" class="dropdown-item"> Services</a>
+                                        <a href="#" class="dropdown-item"> Pages</a>
+                                        <a href="#" class="dropdown-item"> Contact</a>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Our Team</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <button class="contact-btn">Contact Us</button>
                     </div>
                 </nav>
             </div>
@@ -98,7 +104,7 @@
                 <div class=" col-lg-6 col-md-12 ">
                     <div class="banner-item">
                         <div class="banner-image">
-                            <img src="./assets/images/homw-banner-image-1.png" alt="">
+                            <img src="./assets/images/homw-banner-image (1).png">
                         </div>
                     </div>
                 </div>
@@ -118,12 +124,12 @@
             <div class="row">
                 <div class="sponsor-item">
                     <ul class="sponsor-logos">
-                        <li><img src="./assets/images/home-logo2.png" alt=""></li>
-                        <li><img src="./assets/images/home-logo-3.png" alt=""></li>
-                        <li><img src="./assets/images/home-logo4.png" alt=""></li>
-                        <li><img src="./assets/images/home-logo5.png" alt=""></li>
-                        <li><img src="./assets/images/home-logo6.png" alt=""></li>
-                        <li> <img src="./assets/images/home-logo-1.png" alt=""></li>
+                        <li><img src="./assets/images/home-logo2.png"></li>
+                        <li><img src="./assets/images/home-logo-3.png"></li>
+                        <li><img src="./assets/images/home-logo4.png"></li>
+                        <li><img src="./assets/images/home-logo5.png"></li>
+                        <li><img src="./assets/images/home-logo6.png"></li>
+                        <li> <img src="./assets/images/home-logo-1.png"></li>
                     </ul>
                 </div>
             </div>
@@ -139,8 +145,8 @@
             <div class="row ">
                 <div class="col-lg-6">
                     <div class="about-item">
-                        <img class="about-img-1" src="./assets/images/home-about-us.jpg" alt="">
-                        <img class="about-img-2" src="./assets/images/home-about-us-image.jpg" alt="">
+                        <img class="about-img-1" src="./assets/images/home-about-us.jpg" width="100%">
+                        <img class="about-img-2" src="./assets/images/home-about-us-image.jpg">
                     </div>
                 </div>
 
@@ -186,7 +192,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-item">
                         <div class="service-icon">
-                            <img src="./assets/images/home-our-services-1.png" alt="">
+                            <img src="./assets/images/home-our-services-1.png">
                         </div>
                         <div class="service-content">
                             <h2>Network Security</h2>
@@ -202,7 +208,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-item">
                         <div class="service-icon">
-                            <img src="./assets/images/home-our-servies-2.png" alt="">
+                            <img src="./assets/images/home-our-servies-2.png">
                         </div>
                         <div class="service-content">
                             <h2>Database Security</h2>
@@ -218,7 +224,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-item">
                         <div class="service-icon">
-                            <img src="./assets/images/home-our-servies-3.png" alt="">
+                            <img src="./assets/images/home-our-servies-3.png">
                         </div>
 
                         <div class="service-content">
@@ -236,7 +242,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-item">
                         <div class="service-icon">
-                            <img src="./assets/images/home-our-servies-4.png" alt="">
+                            <img src="./assets/images/home-our-servies-4.png">
                         </div>
                         <div class="service-content">
                             <h2>Web Security</h2>
@@ -252,7 +258,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-item">
                         <div class="service-icon">
-                            <img src="./assets/images/home-our-servies-5.png" alt="">
+                            <img src="./assets/images/home-our-servies-5.png">
                         </div>
                         <div class="service-content">
                             <h2>Network Security</h2>
@@ -268,7 +274,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-item">
                         <div class="service-icon">
-                            <img src="./assets/images/home-our-servies-6.png" alt="">
+                            <img src="./assets/images/home-our-servies-6.png">
                         </div>
                         <div class="service-content">
                             <h2>Network Security</h2>
@@ -295,7 +301,7 @@
                 <div class="col-lg-6">
                     <div class="info-item">
                         <div class="info-image">
-                            <img src="./assets/images/home-who-we-are-1.png" alt="">
+                            <img src="./assets/images/home-who-we-are-1.png">
                         </div>
                     </div>
                 </div>
@@ -407,7 +413,7 @@
                 <div class="col-lg-6">
                     <div class="what-we-do-item">
                         <div class="what-we-do-image">
-                            <img class="img-number" src="./assets/images/how-we-are-home6.png" alt="">
+                            <img class="img-number" src="./assets/images/how-we-are-home6.png">
                         </div>
                     </div>
                 </div>
@@ -432,7 +438,7 @@
                     <div class="pricing-item">
                         <div class="pricing-item-top">
                             <div class="icon">
-                                <img src="./assets/images/Pricing-Plan.png" alt="">
+                                <img src="./assets/images/Pricing-Plan.png">
                             </div>
                             <span>Basic</span>
                             <p>Quis autem vea eum iure reare inea voluptate velit esse…</p>
@@ -455,7 +461,7 @@
                     <div class="pricing-item">
                         <div class="pricing-item-top">
                             <div class="icon">
-                                <img src="./assets/images/Pricing-Plan1.png" alt="">
+                                <img src="./assets/images/Pricing-Plan1.png">
                             </div>
                             <span>Standard</span>
                             <p>Quis autem vea eum iure reare inea voluptate velit esse…</p>
@@ -477,7 +483,7 @@
                     <div class="pricing-item">
                         <div class="pricing-item-top">
                             <div class="icon">
-                                <img src="./assets/images/Pricing-Plan2.png" alt="">
+                                <img src="./assets/images/Pricing-Plan2.png">
                             </div>
                             <span>Expert</span>
                             <p>Quis autem vea eum iure reare inea voluptate velit esse…</p>
@@ -513,7 +519,7 @@
                 <div class="col-lg-6">
                     <div class="special-plans-item">
                         <div class="icon">
-                            <img src="./assets/images/bset-chooise2.png" alt="">
+                            <img src="./assets/images/bset-chooise2.png">
                         </div>
                         <div class="plans-content">
                             <h2>The World’s Largest Organizations for Security</h2>
@@ -529,7 +535,7 @@
                 <div class="col-lg-6">
                     <div class="special-plans-item">
                         <div class="icon">
-                            <img src="./assets/images/Best-chooise-2.png" alt="">
+                            <img src="./assets/images/Best-chooise-2.png">
                         </div>
                         <div class="plans-content">
                             <h2>Provide Advanced Security for Advanced Threat</h2>
@@ -609,7 +615,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="blog-item">
                         <div class="card">
-                            <img class="card-img-top" src="./assets/images/home-about-us.jpg" alt="">
+                            <img class="card-img-top" src="./assets/images/home-about-us.jpg" alt="" width="100%">
                             <div class="card-body">
                                 <span>01 January, 2023</span>
                                 <p>Maiores alias conseuatur aut perferendis nosra doloribus...
@@ -623,7 +629,7 @@
                 <div class="col-lg-4 col-md-6 ">
                     <div class="blog-item">
                         <div class="card">
-                            <img class=" card-img-top" src="./assets/images/our-blog-image1.jpg" alt="">
+                            <img class=" card-img-top" src="./assets/images/our-blog-image1.jpg" alt="" width="100%">
                             <div class="card-body">
                                 <span>23 March, 2023</span>
                                 <p>Conseuatur aut pereren doloribus asuer incidunt labore rolore...
@@ -637,7 +643,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="blog-item">
                         <div class="card">
-                            <img class=" card-img-top" src="./assets/images/our-blog-image-2.jpg" alt="">
+                            <img class=" card-img-top" src="./assets/images/our-blog-image-2.jpg" alt="" width="100%">
                             <div class="card-body">
                                 <span>07 April, 2023</span>
                                 <p>Duis aute irure dolor in reprehenderit in volutate velit esse...
@@ -661,7 +667,7 @@
                 <div class="col-lg-6">
                     <div class="get-in-touch-item">
                         <div class="get-in-touch-image">
-                            <img src="./assets/images/Get-in-touch-image.png" alt="">
+                            <img src="./assets/images/Get-in-touch-image.png">
                         </div>
                     </div>
                 </div>
@@ -673,7 +679,7 @@
                             <div class="form-group">
                                 <label for="inputName" class="col-sm-1-12 col-form-label"></label>
                                 <div class="col-md-12">
-                                    <input type="text" class="form-control" name="inputName" id="inputName1"
+                                    <input type="text" class="form-control" name="inputName" id="inputName"
                                         placeholder="Your Name: ">
                                 </div>
                             </div>
@@ -681,7 +687,7 @@
                             <div class="form-group">
                                 <label for="inputName" class="col-sm-1-12 col-form-label"></label>
                                 <div class="col-md-12">
-                                    <input type="text" class="form-control" name="inputName" id="inputName2"
+                                    <input type="text" class="form-control" name="inputName" id="inputName"
                                         placeholder="Phone Number: ">
                                 </div>
                             </div>
@@ -689,7 +695,7 @@
                             <div class="form-group ">
                                 <label for="inputName" class="col-sm-1-12 col-form-label"></label>
                                 <div class="col-md-12">
-                                    <input type="text" class="form-control" name="inputName" id="inputName3"
+                                    <input type="text" class="form-control" name="inputName" id="inputName"
                                         placeholder="Email Address: ">
                                 </div>
                             </div>
@@ -697,7 +703,7 @@
                             <div class="form-group ">
                                 <div class="col-md-12">
                                     <label for="inputName" class="col-sm-1-12 col-form-label"></label>
-                                    <textarea class="form-control" placeholder="Message:"></textarea>
+                                    <textarea class="form-control" placeholder="Message:" name=""></textarea>
                                 </div>
                             </div>
 
@@ -718,7 +724,7 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6">
                     <div class="footer-item">
-                        <img src=" ./assets/images/Header-logo.png" alt="">
+                        <img src=" ./assets/images/Header-logo.png">
                         <p>Deleniti aeue corrupti quos dolores quas tias excepturi sint occaecati rupiditate
                             non similique sunt incidunt…
                         </p>
@@ -734,14 +740,14 @@
 
                 <div class="col-lg-2 col-md-6">
                     <div class="footer-item">
-                        <h2>About Us</h2>
-                        <ul class="about-list ">
-                            <li><a href=""> <i class="fa fa-arrow-right" aria-hidden="true"></i> Services</a></li>
-                            <li><a href=""> <i class="fa fa-arrow-right" aria-hidden="true"></i> Pricing</a></li>
-                            <li><a href=""> <i class="fa fa-arrow-right" aria-hidden="true"></i> Blog</a></li>
-                            <li><a href=""> <i class="fa fa-arrow-right" aria-hidden="true"></i> Pricing</a></li>
-                            <li><a href=""> <i class="fa fa-arrow-right" aria-hidden="true"></i> About us</a></li>
-                        </ul>
+                        <h2>About Us</h4>
+                            <ul class="about-list ">
+                                <li><a href=""> <i class="fa fa-arrow-right" aria-hidden="true"></i> Services</a></li>
+                                <li><a href=""> <i class="fa fa-arrow-right" aria-hidden="true"></i> Pricing</a></li>
+                                <li><a href=""> <i class="fa fa-arrow-right" aria-hidden="true"></i> Blog</a></li>
+                                <li><a href=""> <i class="fa fa-arrow-right" aria-hidden="true"></i> Pricing</a></li>
+                                <li><a href=""> <i class="fa fa-arrow-right" aria-hidden="true"></i> About us</a></li>
+                            </ul>
                     </div>
                 </div>
 
@@ -789,7 +795,7 @@
                 </div>
                 <div class="top-button">
                     <a href="#" class="top">
-                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                        <i class="fa fa-arrow-up" aria-hidden="true"></i>
                     </a>
                 </div>
             </div>
