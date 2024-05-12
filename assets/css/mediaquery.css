@@ -26,15 +26,13 @@
   .header .modal-backdrop {
     z-index: unset;
   }
-}
 
-@media (max-width: 991px) {
   .sponsor-section .sponsor-item .sponsor-logos {
-    flex-direction: column;
+    flex-wrap: wrap;
   }
 
   .sponsor-section .sponsor-item .sponsor-logos li {
-    margin-bottom: 25px;
+    margin: 20px;
   }
 
   figure.snip1390 {
@@ -42,13 +40,34 @@
   }
 }
 
-@media (max-width: 400px) {
+
+@media (max-width: 767px) {
+  .get-in-touch .get-in-touch-item button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 476px) {
   .banner-section .banner-content h1 {
     font-size: 40px;
   }
 
+  .sponsor-section .heading h2,
+  .about-section .about-item .about-content h2,
+  .service-section .service-heading h2,
+  .info-section .info-item h2,
+  .what-we-do-section .what-we-do-item h2,
+  .pricing-section .heading h2,
+  .pricing-plan-section .heading h2,
+  .testimonials-section .heading h2,
+  .blog-section .heading h2,
+  .get-in-touch .get-in-touch-item h2 {
+    font-size: 26px;
+  }
+
   .pricing-plan-section .special-plans-item {
     padding: 50px 10px;
+    margin: 0px 20px 25px 20px;
   }
 
   figure.snip1390 {
@@ -56,7 +75,7 @@
   }
 
   .info-section .info-item .info-count-main {
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: start;
   }
 
@@ -64,15 +83,12 @@
     height: 130px;
   }
 
-  .what-we-do-section .what-we-do-item .what-we-do-image::before,
-  .what-we-do-section .what-we-do-item .what-we-do-image::after,
-  .info-section .info-item .info-image::before,
-  .info-section .info-item .info-image::after {
-    width: 300px;
-    height: 300px;
-  }
+}
 
-  .what-we-do-section .what-we-do-item:hover .what-we-do-image::after {
-    width: 300px;
+@media (max-width: 360px) {
+
+  .banner-section .btn-2,
+  .banner-section .btn-3 {
+    padding: 5px 30px;
   }
 }

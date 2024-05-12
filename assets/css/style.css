@@ -13,6 +13,7 @@ a {
 
 .header {
   background-color: #3c59d5;
+  overflow: hidden;
 }
 
 .header .menu-bar {
@@ -177,6 +178,7 @@ a {
 .banner-section {
   background-color: #2a49d7;
   padding: 90px 0px;
+  overflow: hidden;
 }
 
 .banner-section .banner-content h1 {
@@ -332,6 +334,7 @@ a {
 .sponsor-section {
   background-color: #3c59d5;
   padding: 90px 0px;
+  overflow: hidden;
 }
 
 .sponsor-section .heading {
@@ -358,6 +361,7 @@ a {
 .about-section {
   padding: 90px 0px;
   background-color: #2a49d7;
+  overflow: hidden;
 }
 
 .about-section .about-item {
@@ -470,6 +474,7 @@ a {
 .service-section {
   background-color: #3c59d5;
   padding: 90px 0px;
+  overflow: hidden;
 }
 
 .service-section .service-heading {
@@ -555,6 +560,7 @@ a {
 .info-section {
   background-color: #2a49d7;
   padding: 90px 0px;
+  overflow: hidden;
 }
 
 .info-section .info-item img {
@@ -702,6 +708,7 @@ a {
 .what-we-do-section {
   padding: 90px 0px;
   background-color: #3c59d5;
+  overflow: hidden;
 }
 
 .what-we-do-section .what-we-do-item .what-we-do-image {
@@ -745,8 +752,7 @@ a {
 }
 
 .what-we-do-section .what-we-do-item .img-number {
-  height: 400px;
-  width: auto;
+  width: 100%;
 }
 
 .what-we-do-section .what-we-do-item span {
@@ -803,6 +809,7 @@ a {
   background-color: #2a49d7;
   text-align: center;
   padding: 90px 0px;
+  overflow: hidden;
 }
 
 .pricing-section .heading {
@@ -910,6 +917,7 @@ a {
   padding: 90px 0px;
   background-color: #3c59d5;
   text-align: center;
+  overflow: hidden;
 }
 
 .pricing-plan-section .heading {
@@ -989,10 +997,7 @@ a {
   transition: 0.3s all;
 }
 
-.pricing-plan-section
-  .special-plans-item
-  .plans-content
-  .pricing-btn:hover::before {
+.pricing-plan-section .special-plans-item .plans-content .pricing-btn:hover::before {
   top: -30px;
   left: -30px;
 }
@@ -1005,6 +1010,7 @@ a {
   background-color: #2a49d7;
   text-align: center;
   padding: 90px 0px;
+  overflow: hidden;
 }
 
 .testimonials-section .heading {
@@ -1109,6 +1115,7 @@ figure.snip1390 .profile {
 .blog-section {
   background-color: #3c59d5;
   padding: 90px 0px;
+  overflow: hidden;
 }
 
 .blog-section .heading {
@@ -1285,6 +1292,7 @@ figure.snip1390 .profile {
 .footer {
   background-color: #3c59d5;
   padding-top: 90px;
+  overflow: hidden;
 }
 
 .footer .footer-item {
